@@ -33,20 +33,53 @@
         .carousel-item img{
           width: 200px;
           height: 300px;
-          object-fit: contain;
+          object-fit: fill;
         }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand">Navbar</a>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <h1 class="text-light navbar-brand fs-2 fw-bold text-decoration-line-through">
+              <i>ASC</i>
+            </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-secondary" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
       <div>
           <!-- Tittle -->
           <div class="text-center my-5">
@@ -63,177 +96,204 @@
           </div>
           <!-- Brand -->
           <div class="container my-5">
-            <div class="row">
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+            <div class="row wrapper">
+              <div class="col-8 col-md-3 my-sm-2">
+                <div class="m-sm-2 m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/nike-logo.jpg" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">Nike</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+              <div class="col-8 col-md-3">
+                <div class="m-sm-2 m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/adidas-logo.jpg" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">Adidas</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+              <div class="col-8 col-md-3">
+                <div class="m-sm-2 m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/puma-logo.jpg" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">Puma</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+              <div class="col-8 col-md-3">
+                <div class="m-sm-2 m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/converse-logo-1.png" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">Converse</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+              <div class="col-8 col-md-3">
+                <div class="m-sm-2 m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/dr.martens-logo-1.png" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">Dr.Martens</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+              <div class="col-8 col-md-3">
+                <div class="m-sm-2 m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/league-logo.jpg" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">League</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+              <div class="col-8 col-md-3">
+                <div class="m-sm-2 m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/ventela-logo.png" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">Ventela</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+              <div class="col-8 col-md-3">
+                <div class="m-sm-2 m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/warrior-logo.png" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">Warrior</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+              <div class="col-8 col-md-3">
+                <div class="m-sm-2 m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/tnf-logo.png" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">TNF</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+              <div class="col-8 col-md-3">
+                <div class="m-sm-2 m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/vans-logo.png" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">Vans</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+              <div class="col-8 col-md-3">
+                <div class="m-sm-2 m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/reebok-logo.png" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">Reebok</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="m-3 card" style="width: 100%">
+              <div class="col-8 col-md-3">
+                <div class="m-sm-2  m-md-3 card" style="width: 100%">
+                  <a href="#" style="text-decoration: none; color:black;">
                   <div class="row g-0 wrapper">
-                    <div class="col-md-3">
+                    <div class="col-3 col-md-3">
                       <img src="images/nb-logo-1.png" class="rounded-circle"/>
                     </div>
-                    <div class="col-md-7 align-items-center">
+                    <div class="col-8 col-md-7 align-items-center">
                       <div class="card-body">
                         <p class="card-text">New Balance</p>
                       </div>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
               <!-- Carosel -->
-              <div class="row my-5 wrapper">
+              <div class="row my-sm-3 my-md-5">
+                  <div class="text-center mx-md-3">
+                      <h2>Edisi Terbaru Karya Anak Bangsa!</h2>
+                  </div>
                   <div class="col-md-6">
                       <div id="carouselExampleCaptions" class="carousel slide my-5" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -243,24 +303,36 @@
                         </div>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="images/new-arrival-1-nb.jpg" class="d-block w-100" alt="New Balance New Arrival">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>Introducing The XC-72</h5>
-                              <p>The past could only imagine the future. We brought it to life.</p>
+                            <img src="images/new-arrival-1-nb.jpg" class="d-block w-100 border border-info" alt="New Balance New Arrival">
+                            <div class="carousel-caption d-md-block">
+                              <div class="text-center bg-secondary p-2 text-light bg-opacity-75 rounded">
+                                <h5>Introducing The XC-72</h5>
+                              </div>
+                              <div class="text-center bg-secondary p-2 text-light bg-opacity-50 rounded">
+                                <p>The past could only imagine the future. We brought it to life.</p>
+                              </div>
                             </div>
                           </div>
                           <div class="carousel-item">
-                            <img src="images/new-arrival-3-puma.jpeg" class="d-block w-100" alt="Puma New Arrival">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>Slipstream Mutation Beast Sneakers</h5>
-                              <p>Cause we produce the beasts.</p>
+                            <img src="images/new-arrival-3-puma.jpeg" class="d-block w-100 border border-warning" alt="Puma New Arrival">
+                            <div class="carousel-caption d-md-block">
+                              <div class="text-center bg-secondary p-2 text-light bg-opacity-75 rounded">
+                                <h5>Slipstream Mutation Beast Sneakers</h5>
+                              </div>
+                              <div class="text-center bg-secondary p-2 text-light bg-opacity-50 rounded">
+                                <p>Cause we produce the beasts.</p>
+                              </div>
                             </div>
                           </div>
                           <div class="carousel-item">
-                            <img src="images/new-arrival-4-drmartens.jpg" class="d-block w-100" alt="Dr.Martens New Arrival">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5>Audrick Nappa Leather Platform Ankle Boots</h5>
-                              <p>A towering platform. With everyday wearability.</p>
+                            <img src="images/new-arrival-4-drmartens.jpg" class="d-block w-100 border border-danger" alt="Dr.Martens New Arrival">
+                            <div class="carousel-caption d-md-block">
+                              <div class="text-center bg-secondary p-2 text-light bg-opacity-75 rounded">
+                               <h5>Audrick Nappa Leather Platform Ankle Boots</h5>
+                              </div>
+                              <div class="text-center bg-secondary p-2 text-light bg-opacity-50 rounded">
+                                <p>A towering platform. With everyday wearability.</p>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -276,16 +348,13 @@
                     </div>
                     <div class="col-md-6 my-5">
                             <div class="row">
-                                <div class="col-12 mx-3">
-                                  <h3>Edisi Terbaru Karya Anak Bangsa!</h3>
-                                </div>
                                 <div class="col-12">
                                     <div class="m-3 card">
                                         <div class="row g-0 wrapper">
-                                          <div class="col-md-5 p-3">
+                                          <div class="col-5 col-md-5 p-3">
                                             <img src="images/new-arrival-5-ventela.jpg" class="rounded" />
                                           </div>
-                                          <div class="col-md-7 p-2">
+                                          <div class="col-7 col-md-7 p-2">
                                               <h5>Ventela Public Suede Low Navy</h5>
                                           </div>
                                         </div>
@@ -294,10 +363,10 @@
                                 <div class="col-12">
                                     <div class="m-3 card">
                                         <div class="row g-0 wrapper">
-                                          <div class="col-md-5 p-3">
+                                          <div class="col-5 col-md-5 p-3">
                                             <img src="images/new-arrival-6-ventela.jpg" class="rounded" />
                                           </div>
-                                          <div class="col-md-7 p-2">
+                                          <div class="col-7 col-md-7 p-2">
                                               <h5>Ventela All is Well Low</h5>
                                           </div>
                                         </div>
