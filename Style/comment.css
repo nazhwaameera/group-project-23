@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.carouselImg {
+    height: 25rem;
+    width: auto;
+}
+
+.paragraph {
+    text-align: justify;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 750px) { 
+
+    #asset {
+        text-align: center;
+    }
+}
+
+#text-content {
+    resize: none;
+    margin: auto;
+}
+
+#submit:hover {
+    background-color: #D1D5DB;
+    color: #111827;
+    font-weight: bold;
+}
+
+#tweets {
+    padding: 4px;
+}
+
+#tweet {
+    margin: 8px;
+}
